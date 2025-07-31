@@ -17,7 +17,7 @@ while True:
     tries += 1
 
     if guess == number_to_guess:
-        print(f"정답입니다! {tries}번 만에 맞췄어요 🎉")
+        print(f"정답입니다! {tries}번 만에 맞췄어요! 🎉")
         break
     elif guess < number_to_guess:
         print("너무 작아요!")
